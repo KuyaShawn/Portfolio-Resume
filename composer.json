@@ -1,0 +1,15 @@
+{
+  "name": "eabenoja/Personal/Portfolio-Resume",
+  "authors": [
+    {
+      "name": "Eashune Abenojar",
+      "email": "Eabenojar@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["controller/","model/","classes/"]
+  }
+}
