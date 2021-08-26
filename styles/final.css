@@ -57,7 +57,6 @@ picture img {
 }
 /* Below is for icon class */
 .icons {
-  width: 25em;
   display: inline-flex;
 }
 
