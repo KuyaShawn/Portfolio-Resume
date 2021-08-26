@@ -1,40 +1,40 @@
-<?php
-// Add the location to your favicon file!
-$favicon = "path/to/favicon/file";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title; ?></title>
-    <meta name="description" content="<?php echo $description; ?>">
-    <meta name="author" content="<?php echo $author; ?>">
-    <link rel='icon' type='image/png' href='<?php echo $favicon; ?>'>
-    <link rel="stylesheet" href="styles/remedy.css?v=1.0">
+    <title>Eashune Abenojar</title>
+    <meta name="description" content="Resume/Portfolio of important information of myself">
+    <meta name="author" content="Eashune Abenojar">
+    <link rel='icon' type='image/png' href='imgs/EashuneA_small.jpg'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/final.css?v=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script defer src="javascript/background.js"></script>
+
 </head>
 
 <body>
+    <aside class="navBar">
+        <?php
+        // This puts the HTML for the navigation into the page.
+        include "includes/nav.php";
+        ?>
+    </aside>
     <header>
-        <aside class="navBar">
-            <h1 id="titleName"><?php echo $mainheading; ?></h1>
-            <?php
-            // This puts the HTML for the navigation into the page.
-            include "includes/nav.php";
-            ?>
-        </aside>
-
         <aside class="headerContainer">
             <section class="mediaContainer">
                 <picture>
-                    <source media="(min-width: 60em)" srcset="EashuneA_large.jpg" />
-                    <source media="(min-width: 40em)" srcset="EashuneA_medium.jpg" />
-                    <source media="(min-width: 20em)" srcset="EashuneA_small.jpg" />
-                    <img src="EashuneA.jpg" alt="Photo of Eashune Abenojar">
+                    <source media="(min-width: 60em)" srcset="imgs/EashuneA_large.jpg" />
+                    <source media="(min-width: 40em)" srcset="imgs/EashuneA_medium.jpg" />
+                    <source media="(min-width: 20em)" srcset="imgs/EashuneA_small.jpg" />
+                    <img src="imgs/EashuneA.jpg" alt="Photo of Eashune Abenojar">
                 </picture>
 
                 <h2 id="name">Eashune Abenojar</h2>
@@ -80,5 +80,4 @@ $favicon = "path/to/favicon/file";
                 </a>
             </aside>
         </aside>
-
     </header>

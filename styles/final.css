@@ -67,304 +67,9 @@ aside a svg {
   padding: 1em;
 }
 
-/*------------- Navigation (inside header) ------------- */
-.nav {
-  border-bottom: 0.063em solid #ffffff;
-  text-align: right;
-  height: 4.375em;
-  line-height: 4.375em;
-}
-.menu {
-  margin: 0 1.875em 0 0;
-}
-.menu a {
-  clear: right;
-  text-decoration: none;
-  color: var(--primary-color);
-  margin: 0 0.625em;
-  line-height: 4.375em;
-}
-
-label {
-  margin: 0 2.5em 0 0;
-  font-size: 1.625em;
-  line-height: 4.375em;
-  display: none;
-  width: 1.625em;
-  float: right;
-  color: var(--primary-color);
-}
-#toggle {
-  display: none;
-}
-
-@media only screen and (max-width: 80em) {
-  label {
-    display: block;
-    cursor: pointer;
-  }
-  .menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-  .menu a {
-    display: block;
-    border-bottom: 0.063em solid #ffffff;
-    margin: 0;
-    width: 20em;
-  }
-  #toggle:checked + .menu {
-    display: block;
-  }
-}
-.navBar {
-  font-size: 1.25em;
-  z-index: 2;
-  overflow: hidden;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  background-color: #191919;
-  box-shadow: 0.063em 0.063em 0.188em rgb(0, 0, 0);
-}
-
-
-.mediaContainer {
-  padding-top: 5em;
-}
-
-/*------------- Main page styles ------------- */
-.aboutMe-container {
-  width: 100%;
-  flex-flow: row nowrap;
-  text-align: center;
-  margin: auto;
-  background-color: var(--primary-background);
-}
-.portfolio-section {
-  margin: 0 auto;
-}
-section h3 {
-  flex-flow: column wrap;
-  text-align: center;
-}
-
-/* --------- persnl stmnt section ---------- */
-/* Index2 Personal statement */
-.statment_P {
-  margin: 0in;
-  margin-bottom: 0.0001pt;
-  font-size: 1em;
-  font-family: "Calibri", sans-serif;
-  line-height: 200%;
-  background: white;
-}
-.statment_P {
-  font-family: "Times New Roman", serif;
-  color: black;
-}
-#personalStatement {
-  color: #ffffff;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-/* --------- project section ---------- */
-.project-section {
-  background-color: var(--primary-background);
-  padding-bottom: 10em;
-}
-#csProjects {
-  margin-top: 3em;
-}
-
 /* Project icons */
 .project_Icon {
   width: 7em;
-}
-.project-section .project-container aside {
-  position: relative;
-  width: 90%;
-  height: 100%;
-  padding: 7em;
-  margin: auto 3em;
-  border: 1em solid grey;
-}
-.project-container {
-  display: flex;
-  flex-flow: column wrap;
-}
-.project-container aside {
-  display: flex;
-  flex-flow: column wrap;
-}
-
-/*------------- Second page styles ------------- */
-.secondPage h2 {
-  text-align: center;
-  font-size: 2em;
-}
-section h3 {
-  font-size: 1.5em;
-}
-.skillContainer aside h4 {
-  font-size: 1.25em;
-}
-.skillContainer {
-  background-color: #ffffff;
-}
-/* --------- skills section ---------- */
-#personalSkills {
-  padding-top: 2em;
-  grid-area: headingName;
-}
-.skillContainer aside ul {
-  font-size: 1.25em;
-  list-style: none;
-}
-.skillContainer aside h4 {
-  text-decoration: underline;
-}
-.skill1 {
-  grid-area: skill1;
-  text-align: center;
-}
-.skill2 {
-  grid-area: skill2;
-  text-align: center;
-}
-.skill3 {
-  grid-area: skill3;
-  text-align: center;
-}
-.skillContainer {
-  border-top: 2em solid #1e1f22;
-  padding-bottom: 5em;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  grid-template-areas:
-    "headingName headingName headingName"
-    " skill1 . skill3"
-    " . skill2 .";
-}
-/* --------- Goal section ---------- */
-#personalGoals {
-  grid-area: headingName;
-  padding-top: 3em;
-}
-.goalContainer aside ul {
-  list-style: none;
-}
-.goalContainer aside h4 {
-  text-decoration: underline;
-}
-.goal1 {
-  grid-area: goal1;
-  text-align: center;
-}
-.goal2 {
-  grid-area: goal2;
-  text-align: center;
-}
-.goal3 {
-  grid-area: goal3;
-  text-align: center;
-}
-.goal4 {
-  grid-area: goal4;
-  text-align: center;
-}
-
-.goalContainer {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  grid-template-areas:
-    "headingName headingName headingName headingName"
-    "goal1 goal2 goal3 goal4";
-  background-color: #ffffff;
-  padding-bottom: 5em;
-  border-top: 2em solid #1e1f22;
-}
-/* ------------ Work history ----------- */
-.work_Container {
-  background-color: var(--primary-background);
-  font: var(--primary-font);
-}
-#workHistory {
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-/* --------- footer section ---------- */
-.footer-container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-content: center;
-  height: 100%;
-}
-.contactBox h2{
-  color: var(--primary-color);
-}
-.contactBox ul {
-  list-style-type: none;
-  color: var(--primary-color);
-}
-.contactBox ul li a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-.indexBox nav a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-.indexBox h2{
-  color: var(--primary-color);
-}
-.indexBox nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 1em;
-}
-.copyrightBox {
-  background-color: black;
-  color: var(--primary-color);
-  height: 2em;
-}
-
-/*------------- Grid styling ------------- */
-header {
-  grid-area: header;
-}
-.aboutMe-container {
-  grid-area: aboutme;
-}
-.portfolio-section {
-  grid-area: Portfolio;
-}
-.timeline-section {
-  grid-area: timeline;
-}
-.project-section {
-  grid-area: projects;
-}
-body {
-  display: grid;
-  gap: 2em;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "header"
-    "aboutme"
-    "Portfolio"
-    "timeline"
-    "projects";
 }
 
 /*------------- TimeLine ------------- */
@@ -436,11 +141,13 @@ body {
     transform: translateX(-50%);
     background-color: gray;
   }
+
   .timeLine ul li {
     width: 50%;
     margin-bottom: 3.125em;
     position: relative;
   }
+
   /* Circle left side */
   .timeLine ul li:nth-child(odd) {
     float: left;
@@ -448,6 +155,7 @@ body {
     transform: translateX(-1.875em);
     border-radius: 1.25em 0 1.25em 1.25em;
   }
+
   /* Circle right side */
   .timeLine ul li:nth-child(even) {
     float: right;
@@ -455,6 +163,7 @@ body {
     transform: translateX(1.875em);
     border-radius: 0 1.25em 1.25em 1.25em;
   }
+
   /* timelime circles */
   .timeLine ul li::after {
     content: "";
@@ -465,38 +174,28 @@ body {
     border-radius: 50%;
     top: 0;
   }
+
   /* left side */
   .timeLine ul li:nth-child(odd)::after {
     transform: translate(50%, -50%);
     right: -1.875em;
   }
+
   /* right side */
   .timeLine ul li:nth-child(even)::after {
     transform: translate(-50%, -50%);
     left: -1.875em;
   }
+
   .timeLine ul li:hover:after {
     background-color: rgb(16, 120, 218);
   }
+
   /* Date */
   .timeLine-content .date {
     position: absolute;
     top: -2.5em;
     font-size: 1.7em;
   }
-
-  /* Project section */
-  .project-section .project-container aside {
-    position: relative;
-    width: 90%;
-    height: 100%;
-    padding: 7em;
-    margin-left: 3em;
-    margin-right: 3em;
-    border: 1em solid grey;
-  }
-  .project-container {
-    display: inline-flex;
-    flex-flow: row nowrap;
-  }
 }
+

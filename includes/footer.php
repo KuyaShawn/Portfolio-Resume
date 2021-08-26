@@ -29,10 +29,5 @@
         <p>&copy; <?php echo date("Y"); ?> Eashune Abenojar</p>
     </aside>
 </footer>
-<!-- Background animation dots -->
-<ul id="background">
-</ul>
-<script src="javascript/background.js"></script>
 </body>
-
 </html>
