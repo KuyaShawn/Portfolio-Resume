@@ -90,41 +90,39 @@ include "includes/header.php";
         <!-- add box styles -->
         <aside class="container">
             <aside class="mt-4">
-                <h4>GuessBook Project</h4>
+                <h3 class="font-weight-bold">Guest Book Project</h3>
                 <p>
-                    For my first project I created my first website using the basics of HTML,
-                    CSS, and JavaScript. It isn&apos;t a great website, but it was a start of
-                    something new, which I then got very interested in. I put a lot of effort
-                    into this as a newcomer to programming, but I&apos;m happy how it sorta
-                    turned out
+                    For this project, I created a Guest book webpage that takes in user information. Which then sends it
+                    to an SQL database, which could be viewed through an admin page when you scroll down the page.
                 </p>
             </aside>
             <aside class="mt-4">
-                <h4>Portfolio Project</h4>
+                <h3 class="font-weight-bold">Portfolio Project</h3>
                 <p>
-                    For my second project, for Java 1 I&apos;ve created an art project that used
-                    an &quot;acm&quot; file for graphic/animation designs. This was an overall
-                    fun project for Java 1 and I plan to create more as a little practice
-                    project..
+                    For this project, I created a Portfolio/Resume as a small project to help with CSS ability in moving
+                    & placing elements in certain spots.
                 </p>
             </aside>
             <aside class="mt-4">
-                <h4>Partner Project</h4>
+                <h3 class="font-weight-bold">Partner Project</h3>
                 <p>
-                    For my second project, for Java 1 I&apos;ve created an art project that used
-                    an &quot;acm&quot; file for graphic/animation designs. This was an overall
-                    fun project for Java 1 and I plan to create more as a little practice
-                    project..
+                    This project was a partner project and during this project I expanded my knowledge in PHP and got
+                    better using CSS and bootstrap. Besides that, I learned how to use GitHub and Fat-Free Framework.
+                    Overall, this project was to help increase our skills in web development and I believed I learned a
+                    lot in how to create a more fluid webpage that users can interact with.
                 </p>
             </aside>
             <aside class="mt-4 pb-4">
-                <h4>Team Project</h4>
+                <h3 class="font-weight-bold">Team Project</h3>
                 <p>
-                    For my Third project, for Java 2 I&apos;ve created a basic GUI file that
-                    takes in order list. by letting the user choose what type of drink they
-                    wanted and which assortment they wanted to add into their drink, this GUI
-                    had a working quantity inputter, cost calculation, etc.&nbsp;
-                </p>
+                    For this project, me and a few classmates formed a team of 4 to help create a website for a client
+                    whose company is called Coneybeare. There were also other teams to compete as the client choose the
+                    websites with the best features. And during this significant project I was able to learn how to code
+                    with a team, by communicating in what ideas we can create and gaining skills from other, besides
+                    that I also became a leader for times where a student wasn't able to do the work.
+
+                    Also during this project, I was able to learn how to create a secured webpage using PHP that
+                    communicates with SQL in adding a database.
             </aside>
         </aside>
     </section>

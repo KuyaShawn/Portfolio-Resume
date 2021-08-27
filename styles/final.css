@@ -55,21 +55,6 @@ picture img {
   height: 13em;
   border-radius: 50%;
 }
-/* Below is for icon class */
-.icons {
-  display: inline-flex;
-}
-
-aside a svg {
-  fill: #ffffff;
-  width: 100%;
-  padding: 1em;
-}
-
-/* Project icons */
-.project_Icon {
-  width: 7em;
-}
 
 /*------------- TimeLine ------------- */
 .timeline-section {
