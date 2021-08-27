@@ -1,0 +1,60 @@
+<include href="views/header.html"></include>
+<body>
+<div class="container rounded border mt-4">
+  <!-- form start -->
+  <form action="#" method="post" class="form-horizontal">
+    <div class="row column_row mb-0">
+      <h1 class="mt-4">Warranty Client Options</h1>
+    </div>
+    <div class="row column_row border-top pt-4">
+      <div class="col">
+        <h6>Interior Additions</h6>
+        <div class="container mb-4">
+          <div class="row mb-1">
+            <repeat group="{{ @interior }}" value="{{ @interior }}">
+              <div class="form-check form-check-inline col-2 mt-1">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" value="{{ @interior }}"
+                         name="interiorOption[]"
+                  <check if="{{ in_array(@interior, @userInterior) }}">
+                    checked = "checked"
+                  </check>
+                  >{{ @interior }}
+                </label>
+              </div>
+            </repeat>
+            <check if="{{ isset(@errors['interior']) }}">
+              <span class="err">{{ @errors['interior'] }}</span>
+            </check>
+          </div>
+        </div>
+        <h6>Exterior Additions</h6>
+        <div class="container">
+          <div class="row mb-1">
+            <repeat group="{{ @exterior }}" value="{{ @exterior }}">
+              <div class="form-check form-check-inline col-2 mt-1">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" value="{{ @exterior }}"
+                         name="exteriorOption[]"
+                  <check if="{{ in_array(@exterior, @userExterior) }}">
+                    checked = "checked"
+                  </check>
+                  >{{ @exterior }}
+                </label>
+              </div>
+            </repeat>
+            <check if="{{ isset(@errors['exterior']) }}">
+              <span class="err">{{ @errors['exterior'] }}</span>
+            </check>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row column_row d-flex justify-content-end">
+      <input type="submit" class="form-control btn btn-primary rounded" id="btn_size" value="Next >">
+    </div>
+  </form>
+</div>
+<include href="views/footer.html"></include>
+</body>
+</html>

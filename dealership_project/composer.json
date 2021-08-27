@@ -1,0 +1,19 @@
+{
+  "name": "eabenoja/328/dealership",
+  "authors": [
+    {
+      "name": "Eashune Abenojar",
+      "email": "Eabenojar@mail.greenriver.edu"
+    },
+    {
+      "name": "David Pavlenko",
+      "email": "dpalvenko@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["controller/","model/","classes/"]
+  }
+}

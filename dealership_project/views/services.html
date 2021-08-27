@@ -1,0 +1,148 @@
+<include href="views/header.html"/>
+
+
+<div class="d-flex flex-wrap text-uppercase justify-content-center" id="title_bg">
+    <h2 class="align-self-center mx-1">Services Center</h2>
+</div>
+<section class="container">
+    <form method="post" action="#" class="form-horizontal">
+        <div class="row column_row mb-0 justify-content-center">
+            <h1 class="mt-4">Request your appointment</h1>
+        </div>
+        <div class="control">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="fName">First Name *</label>
+                        <input type="text" class="form-control" name="fName" id="fName" value="{{ $userFirst }}">
+                        <check if="{{ isset(@errors['fname']) }}">
+                            <span class="err">{{ @errors['fname'] }}</span>
+                        </check>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="lName">Last Name *</label>
+                        <input type="text" class="form-control" name="lName" id="lName" value="{{ @userLast }}">
+                        <check if="{{ isset(@errors['lname']) }}">
+                            <span class="err">{{ @errors['lname'] }}</span>
+                        </check>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="pNum">Phone Number *</label>
+                        <input type="text" class="form-control" id="pNum" name="pNum" value="{{ @userPhone }}">
+                        <check if="{{ isset(@errors['pNum']) }}">
+                            <span class="err">{{ @errors['pNum'] }}</span>
+                        </check>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="email">Email *</label>
+                        <input type="text" id="email" name="email" class="form-control" value="{{ @userEmail }}">
+                        <check if="{{ isset(@errors['email']) }}">
+                            <span class="err">{{ @errors['email'] }}</span>
+                        </check>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="make">Make *</label>
+                        <select id="make" name="make" class="form-control">
+                            <repeat group="{{ @Makes }}" value="{{ @make }}">
+                                <option value="{{ @make }}"
+                                <check if="{{ @make == @userMake }}">
+                                    selected
+                                </check>
+                                >{{ @make }}</option>
+                            </repeat>
+                        </select>
+                        <check if="{{ isset(@errors['make']) }}">
+                            <span class="err">{{ @errors['make'] }}</span>
+                        </check>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="model">Model *</label>
+                        <input type="text" class="form-control" name="model" id="model" value="{{ @userModel }}">
+                        <check if="{{ isset(@errors['model']) }}">
+                            <span class="err">{{ @errors['model'] }}</span>
+                        </check>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="category">Category *</label>
+                        <select id="category" name="category" class="form-control">
+                            <repeat group="{{ @Categories }}" value="{{ @category }}">
+                                <option value="{{ @category }}"
+                                <check if="{{ @category == @userCategory }}">
+                                    selected
+                                </check>
+                                >{{ @category }}</option>
+                            </repeat>
+                        </select>
+                        <check if="{{ isset(@errors['category']) }}">
+                            <span class="err">{{ @errors['category'] }}</span>
+                        </check>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="h6" for="year">Year *</label>
+                        <select id="year" name="year" class="form-control">
+                            <repeat group="{{ @Years }}" value="{{ @year }}">
+                                <option value="{{ @year }}"
+                                <check if="{{ @year == @userYear }}">
+                                    selected
+                                </check>
+                                >{{ @year }}</option>
+                            </repeat>
+                        </select>
+                        <check if="{{ isset(@errors['year']) }}">
+                            <span class="err">{{ @errors['year'] }}</span>
+                        </check>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="h6" for="miles">Miles *</label>
+                        <input type="number" id="miles" name="miles" class="form-control" value="{{ @userMiles }}">
+                        <check if="{{ isset(@errors['miles']) }}">
+                            <span class="err">{{ @errors['miles'] }}</span>
+                        </check>
+                    </div>
+                </div>
+            </div>
+            <h6 class="pt-3">Is the car under 50,000 miles?</h6>
+            <div class="form-check form-group">
+                <input type="checkbox" class="form-check-input" value="warranty" name="warranty" id="warranty">
+                <label class="form-check-label" for="warranty">Yes!!!</label>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="submit" class="form-control btn btn-primary rounded" id="btn_size" value="Submit">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-muted">
+                        <strong>*</strong> These fields are required.</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+<include href="views/footer.html"/>

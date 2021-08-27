@@ -45,9 +45,10 @@ include "includes/header.php";
                             <h3 class="date text-dark">2020</h3>
                             <h2>Graduating Highline College with an AS</h2>
                             <p>
-                                During my year in Highline, I grew to learn the basics of HTML, CSS, JavaScript, SQL,
+                                During my years in Highline, I grew to learn the basics of HTML, CSS, JavaScript, SQL,
                                 and Java. And with the help of these projects and classes, I've become more accustomed
-                                to wanting to learn more and get better at coding with multiple languages. And besides. those CS
+                                to wanting to learn more and get better at coding with multiple languages. And besides.
+                                those CS
                                 classes it helped me gain a few minor projects to add to my collection of repos in
                                 GitHub.
                             </p>
@@ -56,15 +57,18 @@ include "includes/header.php";
                     <li>
                         <aside class="timeLine-content">
                             <h3 class="date text-dark">2021</h3>
-                            <h2>Introduction to HTML & JavaScript</h2>
+                            <h2>Perusing my Bachelors Degree at Green River College</h2>
                             <p>
-                                During This year, I took an HTML &amp; JavaScript class, as I already
-                                knew a small portion of HTML, still had lots of things to learn. the
-                                same goes for JavaScript, even though JavaScript had a few similarities
-                                to Java, know how to implement them into HTML was important. But overall
-                                I&apos;ve enjoyed my learning how to code HTML and Javascript as I
-                                learned how to create a few functional websites using both those
-                                languages. it wasn&apos;t at all professionally done, but it worked.
+                                I Joined Green river college to progress my knowledge in Software Development and pursue
+                                a bachelor’s degree in Software Development. In my time here, I have learned how to
+                                strengthen my skills in HTML, CSS, JavaScript, SQL, and Java. Not only that, I learned
+                                how to use PHP properly in order to build a secured website for a company with the
+                                resources we had like a server & mentors. Besides learning a new language, I also
+                                learned how to use and create a proper Data Structure using the Java language.
+
+                                Finally, with the help of a helpful course called Software career prep. I was able to
+                                create a proper resume with all of my important info and skills that I’ve worked on, to
+                                help give me a stepping stone in the CS field.
                             </p>
                         </aside>
                     </li>
@@ -86,7 +90,7 @@ include "includes/header.php";
         <!-- add box styles -->
         <aside class="container">
             <aside class="mt-4">
-                <h4>First Website</h4>
+                <h4>GuessBook Project</h4>
                 <p>
                     For my first project I created my first website using the basics of HTML,
                     CSS, and JavaScript. It isn&apos;t a great website, but it was a start of
@@ -96,7 +100,16 @@ include "includes/header.php";
                 </p>
             </aside>
             <aside class="mt-4">
-                <h4>First Java animated art</h4>
+                <h4>Portfolio Project</h4>
+                <p>
+                    For my second project, for Java 1 I&apos;ve created an art project that used
+                    an &quot;acm&quot; file for graphic/animation designs. This was an overall
+                    fun project for Java 1 and I plan to create more as a little practice
+                    project..
+                </p>
+            </aside>
+            <aside class="mt-4">
+                <h4>Partner Project</h4>
                 <p>
                     For my second project, for Java 1 I&apos;ve created an art project that used
                     an &quot;acm&quot; file for graphic/animation designs. This was an overall
@@ -105,7 +118,7 @@ include "includes/header.php";
                 </p>
             </aside>
             <aside class="mt-4 pb-4">
-                <h4>First GUI</h4>
+                <h4>Team Project</h4>
                 <p>
                     For my Third project, for Java 2 I&apos;ve created a basic GUI file that
                     takes in order list. by letting the user choose what type of drink they
