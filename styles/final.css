@@ -6,6 +6,13 @@
 body {
   background-color: #191919;
 }
+#secondary_bg{
+    background-color: #fff;
+    background-image:
+            linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+            linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
 .ball {
   position: absolute;
   border-radius: 100%;
@@ -14,12 +21,9 @@ body {
 /*------------- all pages ------------------*/
 section h3 {
   font-family: var(--primary-font);
-  font-size: 1.5em;
 }
 section h2 {
   font-family: var(--primary-font);
-  font-size: 1.85em;
-  color: var(--primary-color);
 }
 p, h4, a, li, ul{
   font-family: var(--primary-font);
@@ -41,19 +45,18 @@ p, h4, a, li, ul{
 header {
   height: 87.5em;
 }
-.headerContainer {
-  position: relative;
-  flex-flow: row nowrap;
-  text-align: center;
-  top: 28.125em;
-}
-.mediaContainer picture img {
-  margin: auto;
-}
+
 picture img {
   width: 13em;
   height: 13em;
   border-radius: 50%;
+}
+/*------------- body ------------- */
+.card_height{
+  height: 22em;
+}
+.mrgn_Lf{
+margin-left: 18px;
 }
 
 /*------------- TimeLine ------------- */

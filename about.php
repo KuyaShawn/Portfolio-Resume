@@ -2,14 +2,14 @@
 // This puts the beginning part of the HTML file into the page
 include "includes/header.php";
 ?>
-    <section class="bg-light">
+    <section class="bg-light" id="secondary_bg">
         <section class="text-dark container pt-4 mb-5">
             <h1 class="text-center text-dark ">About Me</h1>
-            <p class="text-dark ">
+            <p class="text-dark">
                 Greetings! my name is Eashune Abenojar. And thank you for viewing my website I hope
                 you enjoy it!
                 <br><br>
-                I am a Junior majoring in Computer Science at Green River College. From a young age, I've had a strong
+                I am a Student majoring in Computer Science at Green River College. From a young age, I've had a strong
                 interest in programming and I've found it to be a great way to solve many problems. Programming has
                 always been a way for me to let my creativity flow, and it is something I am very passionate about.
                 <br><br>
@@ -24,8 +24,7 @@ include "includes/header.php";
             </p>
         </section>
         <hr>
-        <h1 class="text-center text-dark">Portfolio</h1>
-        <h3 class="text-center mt-4">Timeline/Education</h3>
+        <h1 class="text-center mt-4">My Timeline</h1>
         <aside class="timeline-container">
             <aside class="timeLine">
                 <ul>
@@ -87,44 +86,62 @@ include "includes/header.php";
         </aside>
         <hr>
         <h1 class="pt-3 text-center ">Projects</h1>
-        <!-- add box styles -->
-        <aside class="container">
-            <aside class="mt-4">
-                <h3 class="font-weight-bold">Guest Book Project</h3>
-                <p>
-                    For this project, I created a Guest book webpage that takes in user information. Which then sends it
-                    to an SQL database, which could be viewed through an admin page when you scroll down the page.
-                </p>
-            </aside>
-            <aside class="mt-4">
-                <h3 class="font-weight-bold">Portfolio Project</h3>
-                <p>
-                    For this project, I created a Portfolio/Resume as a small project to help with CSS ability in moving
-                    & placing elements in certain spots.
-                </p>
-            </aside>
-            <aside class="mt-4">
-                <h3 class="font-weight-bold">Partner Project</h3>
-                <p>
-                    This project was a partner project and during this project I expanded my knowledge in PHP and got
-                    better using CSS and bootstrap. Besides that, I learned how to use GitHub and Fat-Free Framework.
-                    Overall, this project was to help increase our skills in web development and I believed I learned a
-                    lot in how to create a more fluid webpage that users can interact with.
-                </p>
-            </aside>
-            <aside class="mt-4 pb-4">
-                <h3 class="font-weight-bold">Team Project</h3>
-                <p>
-                    For this project, me and a few classmates formed a team of 4 to help create a website for a client
-                    whose company is called Coneybeare. There were also other teams to compete as the client choose the
-                    websites with the best features. And during this significant project I was able to learn how to code
-                    with a team, by communicating in what ideas we can create and gaining skills from other, besides
-                    that I also became a leader for times where a student wasn't able to do the work.
+        <div class="row container mx-auto">
+            <div class="col-sm-6">
+                <div class="card card_height">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Guest Book Project</h3>
+                        <p class="card-text"> For this project, I created a Guest book webpage that takes in user information. Which then sends it
+                            to an SQL database, which could be viewed through an admin page when you scroll down the page.</p>
+                        <a href="/Personal/Portfolio-Resume/Guessbook/guestbook.php" class="btn btn-primary position-absolute bottom-0 start-0 mb-3 mrgn_Lf">Project Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card card_height">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Portfolio Project</h3>
+                        <p class="card-text">
+                            For this project, I created a Portfolio/Resume as a small project to help with CSS ability in moving
+                            & placing elements in certain spots.
+                        </p>
+                        <a href="/Personal/Portfolio-Resume/HTML_Resume/index.html" class="btn btn-primary position-absolute bottom-0 start-0 mb-3 mrgn_Lf">Project Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card card_height">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Partner Project</h3>
+                        <p class="card-text">
+                            This project was a partner project and during this project I expanded my knowledge in PHP and got
+                            better using CSS and bootstrap. Besides that, I learned how to use GitHub and Fat-Free Framework.
+                            Overall, this project was to help increase our skills in web development and I believed I learned a
+                            lot in how to create a more fluid webpage that users can interact with.
+                        </p>
+                        <a href="https://eabenojar.greenriverdev.com/328/dealership_project/" class="btn btn-primary position-absolute bottom-0 start-0 mb-3 mrgn_Lf">Project Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card card_height">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Team Project</h3>
+                        <p class="card-text">
+                            For this project, me and a few classmates formed a team of 4 to help create a website for a client
+                            whose company is called Coneybeare. There were also other teams to compete as the client choose the
+                            websites with the best features. And during this significant project I was able to learn how to code
+                            with a team, by communicating in what ideas we can create and gaining skills from other, besides
+                            that I also became a leader for times where a student wasn't able to do the work.
 
-                    Also during this project, I was able to learn how to create a secured webpage using PHP that
-                    communicates with SQL in adding a database.
-            </aside>
-        </aside>
+                            Also during this project, I was able to learn how to create a secured webpage using PHP that
+                            communicates with SQL in adding a database.
+                        </p>
+                        <a href="https://ctrl-alt-delete.greenriverdev.com/index.php" class="btn btn-primary position-absolute bottom-0 start-0 mb-3 mrgn_Lf">Project Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
