@@ -2,7 +2,7 @@
 // This puts the beginning part of the HTML file into the page
 include "includes/header.php";
 ?>
-    <section class="bg-light" id="secondary_bg">
+    <section class="bg-light">
         <section class="text-dark container pt-4 mb-5">
             <h1 class="text-center text-dark ">About Me</h1>
             <p class="text-dark">
