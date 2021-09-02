@@ -1,6 +1,4 @@
 :root {
-  --primary-background: #ffffff;
-  --primary-color: #ffffff;
   --primary-font: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 body {
@@ -21,13 +19,17 @@ section h2 {
 p, h4, a, li, ul{
   font-family: var(--primary-font);
 }
-
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
 /*------------- header.php styles ------------- */
 #titleName {
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--primary-color);
   font-size: 1.5em;
   font-family: var(--primary-font);
   font-weight: 500;
@@ -53,9 +55,6 @@ margin-left: 18px;
 }
 
 /*------------- TimeLine ------------- */
-.timeline-section {
-  background-color: var(--primary-background);
-}
 .timeline-container {
   min-height: 100vh;
   width: 100%;

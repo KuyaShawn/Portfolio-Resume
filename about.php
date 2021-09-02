@@ -2,10 +2,10 @@
 // This puts the beginning part of the HTML file into the page
 include "includes/header.php";
 ?>
-    <section class="bg-light">
+    <section class="bg-light mx-auto rounded border border-5">
         <section class="text-dark container pt-4 mb-5">
             <h1 class="text-center text-dark ">About Me</h1>
-            <p class="text-dark">
+            <p class="text-dark mb-3 mt-4">
                 Greetings! my name is Eashune Abenojar. And thank you for viewing my website I hope
                 you enjoy it!
                 <br><br>
@@ -23,8 +23,8 @@ include "includes/header.php";
                 regarding any inquiries or opportunities.
             </p>
         </section>
-        <hr>
-        <h1 class="text-center mt-4">My Timeline</h1>
+        <hr class="border border-dark border border-3">
+        <h1 class="text-center mt-5">My Timeline</h1>
         <aside class="timeline-container">
             <aside class="timeLine">
                 <ul>
@@ -84,10 +84,10 @@ include "includes/header.php";
                 </ul>
             </aside>
         </aside>
-        <hr>
-        <h1 class="pt-3 text-center ">Projects</h1>
-        <div class="row container mx-auto">
-            <div class="col-sm-6">
+        <hr class="border border-dark border border-3">
+        <h1 class="pt-3 text-center mb-4">Projects</h1>
+        <div class="row container mx-auto mb-5">
+            <div class="col-sm-6 mb-3 rounded">
                 <div class="card card_height">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Guest Book Project</h3>
@@ -97,7 +97,7 @@ include "includes/header.php";
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 ">
+            <div class="col-sm-6 mb-3 rounded">
                 <div class="card card_height">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Portfolio Project</h3>
@@ -109,7 +109,7 @@ include "includes/header.php";
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 ">
+            <div class="col-sm-6 rounded">
                 <div class="card card_height">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Partner Project</h3>
@@ -123,7 +123,7 @@ include "includes/header.php";
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 ">
+            <div class="col-sm-6 rounded">
                 <div class="card card_height">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Team Project</h3>
@@ -132,7 +132,7 @@ include "includes/header.php";
                             whose company is called Coneybeare. There were also other teams to compete as the client choose the
                             websites with the best features. And during this significant project I was able to learn how to code
                             with a team, by communicating in what ideas we can create and gaining skills from other, besides
-                            that I also became a leader for times where a student wasn't able to do the work.
+                            that I also became a leader at times where a teammate wasn't able to figure out the work.
 
                             Also during this project, I was able to learn how to create a secured webpage using PHP that
                             communicates with SQL in adding a database.
