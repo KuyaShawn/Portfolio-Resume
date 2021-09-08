@@ -9,6 +9,9 @@
     <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
+                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="{{ @BASE }}">Home</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#abt_section">About Me</a>
             </li>
             <li class="nav-item">

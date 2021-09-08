@@ -1,11 +1,4 @@
 <?php
-// This section defines the variables that will be used to
-// insert text into the top of the page..
-$title = "Eashune Abenojar";
-$description = "Resume/Portfolio of important information of myself";
-$author = "C SCI 202 Eashune Abenojar";
-$mainheading = "Eashune Abenojar";
-
 // This puts the beginning part of the HTML file into the page
 include "includes/header.php";
 ?>
