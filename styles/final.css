@@ -3,6 +3,7 @@
 }
 body {
   background-color: #191919;
+  scroll-behavior: smooth;
 }
 .ball {
   position: absolute;
