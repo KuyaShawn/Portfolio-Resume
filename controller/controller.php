@@ -9,7 +9,7 @@ class portfolioController
         $this->_f3 = $f3;
     }
 
-    public function home()
+    public function about()
     {
         // Display the home page
         $view = new Template();
@@ -18,7 +18,7 @@ class portfolioController
 
     public function extras()
     {
-        // Inventory page
+        // Extras page
         $view = new Template();
         echo $view->render('views/extras.html');
     }

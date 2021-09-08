@@ -20,7 +20,7 @@ $f3->route('GET /', function(){
 });
 
 // Extra page
-$f3->route('GET /inventory', function(){
+$f3->route('GET /extras', function(){
     $GLOBALS['controller']->extras();
 });
 
