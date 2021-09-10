@@ -43,7 +43,7 @@
 <!-- Button source End -->
 
 <nav class="navbar navbar-expand-lg navbar-light container">
-    <a class="navbar-brand text-light btn-lg fs-4 font-weight-bold">More About Me</a>
+    <a class="navbar-brand text-light btn-lg fs-4 font-weight-bold">Welcome to my page!</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,14 +53,35 @@
                 <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="{{ @BASE }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#">Place Holder</a>
+                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#personalGoals">Personal Goals</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#">Place Holder</a>
+                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#personalSkills">Personal Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#">Place Holder</a>
+                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#personalStatement">Personal Statement</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light btn-lg fs-4 font-weight-bold" href="#workHistory">Work History</a>
             </li>
         </ul>
     </section>
 </nav>
+
+<header>
+    <aside class="position-absolute top-50 start-50 translate-middle text-center">
+        <picture>
+            <source media="(min-width: 60em)" srcset="imgs/EashuneA_large.jpg"/>
+            <source media="(min-width: 40em)" srcset="imgs/EashuneA_medium.jpg"/>
+            <source media="(min-width: 20em)" srcset="imgs/EashuneA_small.jpg"/>
+            <img class="mx-auto" src="imgs/EashuneA.jpg" alt="Photo of Eashune Abenojar">
+        </picture>
+        <h2 id="name" class="text-light">More About Me!</h2>
+
+        <ul class="nav col-md-12 justify-content-center list-unstyled d-flex">
+            <li class="ms-3"><a class="text-light fs-2" href="https://github.com/KuyaShawn"><i class="bi bi-github"></i></a></li>
+            <li class="ms-3"><a class="text-light fs-2" href="mailto:EashuneAbenojar@hotmail.com"><i class="bi bi-envelope-fill"></i></a></li>
+            <li class="ms-3"><a class="text-light fs-2" href="https://www.linkedin.com/in/eashunea/"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+    </aside>
+</header>
